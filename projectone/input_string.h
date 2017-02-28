@@ -28,7 +28,7 @@ public:
 
 
     size_t size() {return buf.str().size();}
-    void clear() {buf.str("");} //ïîçâîëÿåò ðàáîòàòü â öèêëàõ
+    void clear() {buf.str("");} //позволяет использовать в цикле
 
 
 };
