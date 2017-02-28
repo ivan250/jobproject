@@ -37,10 +37,9 @@ bool Projmanip::replace_word(std::string& str, const std::string& from, const st
 
 
 /*
-Çàùèòà îò ïîâòîðíîé èíèöèàëèçàöèè â öèêëàõ.
-×òî ïîçâîëÿåò ðàáîòàòü â öèêëàõ è íå ñîâåðøàòü ëèøíèõ äåéñòâèé òîðìîçÿùèõ ïðîãðàììó.
+Защита от повторной инициализации в циклах.
+Что позволяет использовать манипулятор в цикле и не тормозить программу.
 */
-
 
 std::ostream & Projmanip::mydescent (std::ostream & os , const int & i, const char *s)
 {
